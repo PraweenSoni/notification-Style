@@ -126,6 +126,7 @@ body {
 
 .toast .column i {
   font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 .toast.success .column i {
@@ -143,12 +144,14 @@ body {
 .toast.info .column i {
   color: var(--info);
 }
-.toast .column span{
-    margin: 0 1rem;
-    display: flex;
+.toast .column .toast-message{
+  margin: 0 1rem;
+  display: flex;
 }
-.toast .column span p{
+
+.toast .column .toast-message p{
   font-size: 1rem;
+  margin: 0 1rem;
   font-weight: 700;
 }
 

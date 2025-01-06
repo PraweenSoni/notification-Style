@@ -6,16 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toast Notification</title>
-  <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script>
- <!-- <script src="toast.min.js"></script> -->
+  <!-- <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script> -->
+   <script src="toast.min.js"></script>
 </head>
 
-<body>
-  <button onclick="showToast('success')">Show Success</button>
-  <button onclick="showToast('error')">Show Error</button>
-  <button onclick="showToast('warning')">Show Warning</button>
-  <button onclick="showToast('info')">Show Info</button>
-  <button onclick="showToast('success', 'Custom Success Message!', 10000)">Custom Toast</button>
+<body class="buttons">
+  <button onclick="showToast('success')" class="btn" id="success">Show Success</button>
+  <button onclick="showToast('error')" class="btn">Show Error</button>
+  <button onclick="showToast('warning')" class="btn">Show Warning</button>
+  <button onclick="showToast('warning', 'Aree warning de rha hai')" class="btn">Show Warning</button>
+  <button onclick="showToast('info')" class="btn">Show Info</button>
+  <button onclick="showToast('success', 'Custom Success Message!', 10000)" class="btn">Custom Toast</button>
 </body>
 
 </html>

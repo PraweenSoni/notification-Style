@@ -1,7 +1,7 @@
 const notification = document.querySelector(".notification"),
 buttons = document.querySelectorAll(".buttons .btn");
 const toastDetails = {
- timer: 5000,
+ timer: 10000,
  success:{
   icon: 'fa-circle-check',
   Text: 'Success: This is Success.',

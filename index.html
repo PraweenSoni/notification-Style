@@ -12,7 +12,15 @@
 </head>
 
 <body>
- <ul class="notification"></ul>
+ <ul class="notification">
+    <li class="toast success">
+        <div class="column">
+            <i class="fa-solid fa-circle-check"></i>
+            <span><p>Success</p> : This is success Message
+            </span>
+        </div><i class = "fa-solid fa-xmark" onclick="removeToast(this.parentElement)"> </i>
+    </li>
+ </ul>
  <div class="buttons">
   <button class="btn" id="success">Success</button>
   <button class="btn" id="error">Error</button>
