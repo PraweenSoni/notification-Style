@@ -35,6 +35,6 @@ const createToast = (id) => {
    notification.appendChild(toast);
    toast.timeoutId = setTimeout(() => removeToast(toast), toastDetails.timer);
 }
-  buttons.forEach(btn => {
-   btn.addEventListener("click", () => createToast(btn.id));
-  });
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => createToast(btn.id));
+});
