@@ -71,9 +71,12 @@ Customize the styles to suit your needs. For example:
 
 ---
 
-## Example
+## Images
+### Example code :
+![demoCode](https://github.com/user-attachments/assets/53db78e0-d9e2-41f9-9f8f-34d4e4da8a95)
+### Demo Picture how your toasted notification will look like.
+![Toast Notification Example](https://github.com/user-attachments/assets/3f2ee8fe-f483-45b3-a8d3-839b4e70e9e4)
 
-![Toast Notification Example](https://via.placeholder.com/500x300?text=Example+Toast+Notification)
 
 ---
 
