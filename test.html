@@ -6,18 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toast Notification</title>
-  <!-- <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script> -->
-   <script src="toast.min.js"></script>
+  <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script>
+   <!-- <script src="toast.min.js"></script> -->
 </head>
 
 <body class="buttons">
-  <button onclick="showToast('success')" class="btn" id="success">Show Success</button>
-  <button onclick="showToast('success', 10000)" class="btn" id="success">Show Success</button>
-  <button onclick="showToast('error')" class="btn">Show Error</button>
-  <button onclick="showToast('warning')" class="btn">Show Warning</button>
-  <button onclick="showToast('warning', 'Aree warning de rha hai')" class="btn">Show Warning</button>
-  <button onclick="showToast('info')" class="btn">Show Info</button>
-  <button onclick="showToast('info', 'Custom Success Message!', 20000)" class="btn">Custom Toast</button>
+  <button onclick="errorToast()" class="btn" id="success">Show Success</button>
+  <button onclick="sucessToast()" class="btn" id="success">Show Success</button>
+  <button onclick="showToast()" class="btn" id="success">default Success</button>
 </body>
+
+<script>
+  function sucessToast(){
+    showToast({
+    type: "success",
+    message: "Data saved successfully!",
+    duration: 3000, // Duration in milliseconds
+    customTitle: "Great!",
+  });
+  }
+const errorToast = () => {
+  showToast({
+    type: "error",
+    message: "Something went wrong!",
+    duration: 30000,
+  });
+}
+
+</script>
 
 </html>
