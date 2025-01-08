@@ -15,7 +15,7 @@ This project is a simple and customizable toast notification system implemented 
 ---
 
 ## Installation & How to use
-1. Add JavaScript files to your HTML Head Tag :
+1. Add Script tag to your HTML Head Tag :
 
 ```html
 <!-- Include the JavaScript file -->
