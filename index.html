@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toast Notification</title>
     <!-- Here Toasted Notification link was added -->
-    <script src="toast.min.js"></script>
-    <!-- <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script> -->
+    <script src="https://praweensoni.github.io/notification-Style/toast.min.js"></script>
   </head>
 
   <body class="buttons">
@@ -16,35 +15,35 @@
     <button onclick="errorToast()" class="btn" id="error">Error</button>
     <button onclick="warningToast()" class="btn" id="warning">warning</button>
     <button onclick="infoToast()" class="btn" id="info">Info</button>
-  </body>
 
-  <script>
-    function sucessToast() {
-      showToast({
-        type: "success",
-        message: "Data saved successfully!",
-        duration: 3000, // Duration in milliseconds
-        customTitle: "Great!",
-      });
-    }
-    const errorToast = () => {
-      showToast({
-        type: "error",
-        message: "Something went wrong!",
-        duration: 30000,
-      });
-    };
-    const warningToast = () => {
-      showToast({
-        type: "warning",
-        message: "Warning de rha hai bhai."
-      })
-    }
-    const infoToast = () => {
-      showToast({
-        type: "info",
-        message: "Info de rha hai bhai."
-      })
-    }
-  </script>
+    <script>
+      function sucessToast() {
+        showToast({
+          type: "success",
+          message: "Data saved successfully!",
+          duration: 3000, // Duration in milliseconds
+          customTitle: "Great!",
+        });
+      }
+      const errorToast = () => {
+        showToast({
+          type: "error",
+          message: "Something went wrong!",
+          duration: 30000,
+        });
+      };
+      const warningToast = () => {
+        showToast({
+          type: "warning",
+          message: "Warning de rha hai bhai.",
+        });
+      };
+      const infoToast = () => {
+        showToast({
+          type: "info",
+          message: "Info de rha hai bhai.",
+        });
+      };
+    </script>
+  </body>
 </html>
