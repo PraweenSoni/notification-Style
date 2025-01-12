@@ -116,11 +116,6 @@
   justify-content: center;
 }
 
-.toast .column i {
-  font-size: 1.5rem;
-  margin-right: 10px;
-}
-
 .toast.success .column i {
   color: var(--success);
 }
@@ -179,13 +174,19 @@
 
 @media screen and (max-width: 530px) {
   .notification {
-    width: 95%;
+    /* width: 90%; */
+    right: 10px;
   }
 
   .notification .toast {
-    width: 100%;
-    font-size: 0.8rem;
-    margin-left: 15px;
+    /* width: 100%; */
+    padding: 5px 8px;
+  }
+  .notification .toast, .toast .toast-message p{
+    font-size: .9rem;
+  }
+  .toast .toast-message {
+    margin: 0 .5rem;
   }
 
   .buttons .btn {
