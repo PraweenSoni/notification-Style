@@ -13,7 +13,7 @@ This project is a simple and customizable toast notification system implemented 
 - Built-in CSS
 
 ---
-
+## 3 Simple Steps to ready your toasted Notification.
 ## Installation & How to use
 1. Add Script tag to your HTML Head Tag :
 
@@ -21,13 +21,12 @@ This project is a simple and customizable toast notification system implemented 
 <!-- Include the JavaScript file -->
 <script src="https://praweensoni.github.io/notification-Style/toast.min.js" defer></script>
 ```
-
 ---
 
 ## Usage
 
 ### HTML
-Add buttons or triggers for the notifications:
+2. Add buttons or triggers for the notifications:
 
 ```html
 <body class="buttons">
@@ -38,7 +37,7 @@ Add buttons or triggers for the notifications:
 
 ### JavaScript
 
-Define your toast notification logic:
+3. Define your toast notification logic:
 
 ```javascript
 function successToast() {
@@ -60,7 +59,7 @@ const errorToast = () => {
 ```
 
 ### CSS (Optional)
-Customize the styles to suit your needs. For example:
+4. Customize the styles to suit your needs. For example:
 
 ```css
 .toast {
