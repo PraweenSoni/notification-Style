@@ -175,7 +175,7 @@
 @media screen and (max-width: 530px) {
   .notification {
     /* width: 90%; */
-    right: 10px;
+    right: 8px;
   }
 
   .notification .toast {
