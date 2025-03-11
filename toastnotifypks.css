@@ -7,7 +7,7 @@
   --info: #3498db;
 }
 
-.notification {
+.tnpks {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   color: var(--light);
 }
 
-.notification .toast {
+.tnpks .toast {
   max-width: 500px;
   position: relative;
   overflow: hidden;
@@ -49,7 +49,7 @@
   }
 }
 
-.notification .toast.hide {
+.tnpks .toast.hide {
   animation: hide_toast 0.3s ease forwards;
 }
 
@@ -91,22 +91,22 @@
 }
 
 .toast.success::before,
-.btn#success {
+.tnpksBtn#success {
   background-color: var(--success);
 }
 
 .toast.error::before,
-.btn#error {
+.tnpksBtn#error {
   background-color: var(--error);
 }
 
 .toast.warning::before,
-.btn#warning {
+.tnpksBtn#warning {
   background-color: var(--warning);
 }
 
 .toast.info::before,
-.btn#info {
+.tnpksBtn#info {
   background-color: var(--info);
 }
 
@@ -161,7 +161,7 @@
   color: var(--dark);
 }
 
-.buttons .btn {
+.tnpksBtns .tnpksBtn {
   border: none;
   outline: none;
   color: #fff;
@@ -173,19 +173,19 @@
 }
 
 @media screen and (max-width: 530px) {
-  .notification {
+  .tnpks {
     /* width: 90%; */
     right: 8px;
   }
 
-  .notification .toast {
+  .tnpks .toast {
     /* width: 100%; */
     padding: 5px 8px;
   }
-  .notification .toast .toast-icon svg {
+  .tnpks .toast .toast-icon svg {
     width: 18px;
   }
-  .notification .toast,
+  .tnpks .toast,
   .toast .toast-message p {
     font-size: 0.9rem;
   }
@@ -198,7 +198,7 @@
     padding: 0;
   }
 
-  .buttons .btn {
+  .tnpksBtns .tnpksBtn {
     font-size: 0.8rem;
     padding: 8px 10px;
   }
